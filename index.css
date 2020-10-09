@@ -1,1 +1,145 @@
-/* Put your style information here! */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: 1fr 300px 300px 300px 300px 1fr;
+  grid-template-rows: 250px 100px 30px auto 30px auto 30px auto auto 30px auto 30px;
+  font-family: Century Gothic, AppleGothic, sanr-serif;
+}
+h1 {
+  grid-column: 2 / 4;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 120px;
+}
+p {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 20px;
+  line-height: 150%;
+}
+figcaption {
+  border: 1px dotted gray;
+  text-align: center;
+}
+li {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 20px;
+  line-height: 150%;
+}
+.topic {
+  grid-column: 2 / 4;
+  grid-row: 1;
+  margin-left: 200px;
+  font-size: 70px;
+}
+.intro {
+  margin-left: 80px;
+  margin-right: 200px;
+  grid-column: 2 / 5;
+  grid-row: 2;
+}
+.interface {
+  border: 1px dotted;
+  grid-row: 3;
+}
+.div1 {
+  grid-column: 2 / 6;
+  grid-row: 4;
+}
+.interview {
+  border: 1px dotted;
+  grid-row: 5;
+}
+.div2 {
+  grid-column: 2 / 6;
+  grid-row: 6;
+}
+.persona {
+  border: 1px dotted;
+  grid-row: 7;
+}
+.div3 {
+  grid-column: 2 / 6;
+  grid-row: 8;
+}
+
+.div4 {
+  grid-column: 2 / 6;
+  grid-row: 9;
+}
+.storyboard {
+  border: 1px dotted;
+  grid-row: 10;
+}
+.div5 {
+  grid-column: 2 / 6;
+  grid-row: 11;
+}
+.storyrow {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.storyfig {
+  height: 550px;
+  display: inline-block;
+  border:1px solid #021a40;
+  margin: 10px 0px 10px 0px;
+}
+.storyfigcaption {
+  width: 420px;
+  text-align: center;
+  margin: 10px;
+}
+#sketch {
+  display: block;
+  width: 70%;
+  margin: 30px auto 0px auto;
+}
+#persona1 {
+  width: 40%;
+  float: left;
+  margin: 50px auto 0px 150px;
+}
+#persona2 {
+  width: 40%;
+  float: right;
+  margin: 10px 150px auto auto;
+}
+#logo {
+  grid-column: 4 / 6;
+  grid-row: 1;
+  width: 40%;
+  margin: 60px 10px 100px;
+  text-align: left;
+}
+#sketchcaption {
+  margin: auto 220px 50px 250px;
+}
+#personabackground1 {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.7;
+  margin: 70px 100px auto 800px;
+}
+#personaanalysis1 {
+  margin: 20px 100px 0px 800px;
+}
+#personabackground2 {
+  margin: 10px auto auto 120px;
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.7;
+}
+#personaanalysis2 {
+  margin: 20px auto auto 120px;
+}
+footer {
+  grid-column: 2 / 6;
+  grid-row: 12 ;
+  text-align: right;
+  margin-right: 400px;
+}
